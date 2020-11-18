@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Raleway';
+}
+
+.location {
+    height: 30vh;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.temperature {
+    flex-direction: column;
+    height: 30vh;
+    justify-content: space-around;
+}
+
+.temp-degree {
+    font-family: 'Lato';
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+.degree-section {
+    cursor: pointer;
+}
+
+.degree-section span {
+    font-size: 30px;
+}
+
+.description {
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 28px;
+}
